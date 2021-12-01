@@ -11,39 +11,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.flexelements 
-{
-  display: flex;
-  width:400px;
-  border-style: outset;
-  margin-right: 20px;
-}
-.headerOrFooter {
-  padding: 5px;
-  
-  text-align: center;
-  background: #121313;
-  color: rgb(248, 244, 244);
-  font-size: 18px;
-  
-   
-}
-.search
-{
-  padding: 5px;
-  margin:30px;
-}
-.content {
-   
-  padding: 16px;
-}
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
